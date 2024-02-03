@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    #one{
+      /* border: 1px solid yellow; */
+     display:list-item;
+      padding-top: 25px;
+      /* justify-content: center; */
+      background:white;
+      width: 350px;
+      padding-bottom: 19px;
+      border-width: 35px;
+      border-radius: 15px;
+      height: 450px;
+
+    }
+    button{
+      width: 99px;
+      height: 30px;
+      margin-left: 25px;
+      background: hsl(47, 88%, 63%);;
+      border: hsl(47, 88%, 63%);;
+      border-radius: 5px;
+      display: list-item;
+      margin-top: 15px;
+    }
+    #line{
+      margin-top: 15px;
+      display: list-item;
+      margin-left: 25px;
+      font-size: small;
+    }
+    h3{
+      display: list-item;
+      margin-left: 25px;
+      font-size:19px;
+      font-weight: bold;
+    }
+    p{
+      display: list-item;
+      margin-left: 25px;
+      font-size: 16px;
+      font-weight: 100;
+    }
+    
+
+    #imgs{
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      border-radius: 15px;
+      margin-left: 25px;
+
+    }
+    body{
+      background: hsl(47, 88%, 63%);
+    }
+    #ball{
+      display:flex;
+      justify-content: center;
+      margin-top: 60px;
+      list-style: none;
+    
+    }
+    @media screen and (max-width:"1200px") {
+     .ball {
+       width: 100%;
+    }
+    .ball{
+      width: fit-content;
+    }
+      
+    }
+    #pro{
+      width: 40px;
+      height: 40px;
+      margin-left: 20px;
+      display: flex;
+    }
+    #pic{
+    
+      margin-left: 75px;
+      margin-top: -28px;
+      font-weight: bold;
+
+
+    }
+  </style>
+</head>
+<body>
+  <div id="ball">
+    <div id="one">
+      <img id="imgs" src="./assets/images/illustration-article.svg" alt="">
+      <button> Learning</button>
+      <div id="line">Published 21 Dec 2023</div>
+      <h3>HTML & CSS foundations</h3>
+      <p>  These languages are the backbone of every website, defining structure, content, and presentation.
+      </p>
+      <div>
+        <img id="pro" src="./assets/images/image-avatar.webp" alt="">
+        <div id="pic">  Greg Hooper
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Madhavan</a>
+  </div>
+</body>
+</html>
